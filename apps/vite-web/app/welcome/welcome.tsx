@@ -1,3 +1,4 @@
+import { Button } from "@repo/ui/button";
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 
@@ -40,6 +41,7 @@ export function Welcome() {
               ))}
             </ul>
           </nav>
+          <Button appName="Vite Web">Click me</Button>
         </div>
       </div>
     </main>

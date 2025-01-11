@@ -7,6 +7,8 @@ import {
   ScrollRestoration,
 } from "react-router";
 
+import { Button } from "@repo/ui/button";
+
 import type { Route } from "./+types/root";
 import stylesheet from "./app.css?url";
 
@@ -71,6 +73,7 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
           <code>{stack}</code>
         </pre>
       )}
+      <Button appName="Vite Web">Click me</Button>
     </main>
   );
 }
